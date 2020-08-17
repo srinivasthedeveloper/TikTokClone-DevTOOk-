@@ -1,0 +1,11 @@
+.videoSideBar
+{
+	color:white;
+	position: absolute;
+	top: 200px;
+	right: 10px;
+	/* width: 10%; */
+	/* padding-top: 30px;
+	line-height: 30px; */
+	/* transform: scale(1.5); */
+}

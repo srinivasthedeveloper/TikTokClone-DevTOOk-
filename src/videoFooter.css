@@ -1,9 +1,11 @@
 .videoFooter
 {
 	position: relative;
-	bottom: 100px;
+	bottom: 80px;
 	color: white;
 	margin-left: 30px;
+	display: grid;
+    place-items:bottom;
 }
 
 .videoFooter_icon

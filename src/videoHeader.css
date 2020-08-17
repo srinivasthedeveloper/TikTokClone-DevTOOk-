@@ -4,12 +4,14 @@
 	bottom: 100px;
 	color: white;
 	margin-left: 30px;
+	display: grid;
+    place-items:top;
 }
 
 .videoHeader_text
 {
 	position: absolute;
-	bottom: 420px;
+	bottom: 425px;
 	left: -20px;
 }
 

@@ -1,6 +1,7 @@
 import React,{useRef,useState} from 'react';
 import VideoFooter from './videoFooter.js';
-import VideoHeader from './videoHeader.js'
+import VideoHeader from './videoHeader.js';
+import VideoSidebar from './VideoSideBar.js';
 import "./Video.css";
 
 function Video(){
@@ -25,9 +26,9 @@ function Video(){
 			onClick={onVideoPress}
 			ref={videoRef}
 			src="../a.mp4"> </video>
-		<VideoHeader />
-		<VideoFooter />
-		{/* <VideoSidebar /> */}
+			<VideoHeader />
+			<VideoFooter />
+			<VideoSidebar />
 		</div>
 	);
 }
