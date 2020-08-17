@@ -1,0 +1,55 @@
+.videoFooter
+{
+	position: relative;
+	bottom: 100px;
+	color: white;
+	margin-left: 30px;
+}
+
+.videoFooter_icon
+{
+	position: absolute;
+}
+
+.videoFooter_ticker > .ticker
+{
+	height: fill-content;
+	margin-left: 25px;
+}
+
+.videoFooter_ticker > .ticker 
+{
+	font-size: 14px;
+	font-style: italic;
+	color: white;
+	width: 80%;
+}
+
+.videoFooter_text > p
+{
+	padding-top: 6px;
+	padding-bottom: 6px;
+	width: 80%;
+	line-height: 15px;
+}
+
+.videoFooter_record
+{
+	position: absolute;
+	right: 15px;
+	animation: spin infinite 5s linear;
+	bottom: 0;
+	fill: red;
+	fontSize: 8vh;
+}
+
+@keyframes spin
+{
+	from{
+		transform: rotate(0deg);
+	}
+	to
+	{
+		transform: rotate(360deg);
+	}
+}

@@ -1,0 +1,33 @@
+.videoHeader
+{
+	position: relative;
+	bottom: 100px;
+	color: white;
+	margin-left: 30px;
+}
+
+.videoHeader_text
+{
+	position: absolute;
+	bottom: 420px;
+	left: -20px;
+}
+
+.videoHeader_text > h2
+{
+	position: absolute;
+	top: 5px;
+	left: 18px;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.videoHeader_text > p
+{
+	font-size: 14px;
+}
+
+.videoHeader_icon
+{
+	transform: scale(1.5);
+}
