@@ -4,10 +4,9 @@ import VideoHeader from './videoHeader.js';
 import VideoSidebar from './VideoSideBar.js';
 import "./Video.css";
 
-function Video(){
+function Video({url,userName,appName,description,song,likes,messages,shares}){
 	const [playing,setPlaying]=useState(false);
-	const videoRef=useRef(null);
-	
+	const videoRef=useRef(null);	
 	const onVideoPress = () => {
 		if(playing){
 			videoRef.current.pause();
@@ -25,10 +24,18 @@ function Video(){
 			loop
 			onClick={onVideoPress}
 			ref={videoRef}
-			src="../a.mp4"> </video>
-			<VideoHeader />
-			<VideoFooter />
-			<VideoSidebar />
+			src={url}> </video>
+			<VideoHeader 
+			userName={userName}
+			appName={appName}/>
+			<VideoFooter 
+			userName={userName} 
+			description={description}
+			song={song}/>
+			<VideoSidebar 
+			likes={likes} 
+			messages={messages} 
+			shares={shares} />
 		</div>
 	);
 }

@@ -5,12 +5,12 @@ import MusicNoteIcon from '@material-ui/icons/MusicNoteSharp';
 import LibraryIcon from '@material-ui/icons/LibraryMusicSharp';
 
 
-function VideoFooter(){
+function VideoFooter({userName,description,song}){
 	return (
 		<div className="videoFooter">
 			<div className="videoFooter_text">
-				<h4>@NeverBackDown</h4>
-				<p>Still I am in the hall of fame so be carefull</p>
+				<h4>@{userName}</h4>
+				<p>{description}</p>
 				<div className="videoFooter_record">
 					<LibraryIcon style={{fontSize:"50px"}} />
 				</div>
@@ -19,7 +19,7 @@ function VideoFooter(){
 					<Ticker mode="smooth">
 						{({ index }) =>(
 							<>
-							<p><b>Hello Buddy</b></p>
+							<p><b>{song}</b></p>
 							</>
 						)}
 					</Ticker>
