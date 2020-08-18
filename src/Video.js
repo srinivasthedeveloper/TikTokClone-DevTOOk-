@@ -4,7 +4,7 @@ import VideoHeader from './videoHeader.js';
 import VideoSidebar from './VideoSideBar.js';
 import "./Video.css";
 
-function Video({url,userName,appName,description,song,likes,messages,shares}){
+function Video({url,userName,description,song,likes,messages,shares}){
 	const [playing,setPlaying]=useState(false);
 	const videoRef=useRef(null);	
 	const onVideoPress = () => {
@@ -26,8 +26,7 @@ function Video({url,userName,appName,description,song,likes,messages,shares}){
 			ref={videoRef}
 			src={url}> </video>
 			<VideoHeader 
-			userName={userName}
-			appName={appName}/>
+			userName={userName}/>
 			<VideoFooter 
 			userName={userName} 
 			description={description}

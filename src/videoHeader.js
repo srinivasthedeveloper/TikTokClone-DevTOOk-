@@ -6,7 +6,7 @@ function VideoHeader({appName,userName}){
 	return (
 		<div className="videoHeader">
 			<div className="videoHeader_text">
-				<h2>{appName}</h2>
+				<h2>TheDevop</h2>
 				<MusicNoteIcon className="videoHeader_icon"/>
 				<p><b>@{userName}</b></p>
 			</div>
