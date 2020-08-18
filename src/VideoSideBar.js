@@ -9,14 +9,22 @@ import ShareIcon from '@material-ui/icons/ShareSharp';
 function VideoSideBar(){
     return (
     	<div className="videoSideBar">
-    	<HeartBorderIcon />
-    	<p>444</p>
-    	<HeartIcon />
-    	<p>444</p>
-    	<MessageIcon />
-    	<p>444</p>
-    	<ShareIcon />
-    	<p>444</p>
+    	<div ClassName="videoSideBar_button">
+	    	<HeartBorderIcon />
+	    	<p>444</p>
+    	</div>
+    	<div ClassName="videoSideBar_button">
+	    	<HeartIcon />
+	    	<p>444</p>
+    	</div>
+    	<div ClassName="videoSideBar_button">
+	    	<MessageIcon />
+	    	<p>444</p>
+    	</div>
+    	<div ClassName="videoSideBar_button">
+	    	<ShareIcon />
+	    	<p>444</p>
+    	</div>
     	</div>
     );
 };
