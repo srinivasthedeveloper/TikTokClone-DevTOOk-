@@ -1,34 +1,67 @@
-[debug] [2020-08-18T11:08:01.134Z] ----------------------------------------------------------------------
-[debug] [2020-08-18T11:08:01.144Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
-[debug] [2020-08-18T11:08:01.148Z] CLI Version:   8.7.0
-[debug] [2020-08-18T11:08:01.149Z] Platform:      linux
-[debug] [2020-08-18T11:08:01.149Z] Node Version:  v10.19.0
-[debug] [2020-08-18T11:08:01.297Z] Time:          Tue Aug 18 2020 16:38:01 GMT+0530 (India Standard Time)
-[debug] [2020-08-18T11:08:01.298Z] ----------------------------------------------------------------------
-[debug] [2020-08-18T11:08:01.298Z] 
-[debug] [2020-08-18T11:08:01.428Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2020-08-18T11:08:01.430Z] > authorizing via signed-in user
-[debug] [2020-08-18T11:08:01.432Z] [iam] checking project tik-tok-clone-65ef0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2020-08-18T11:08:01.502Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tik-tok-clone-65ef0:testIamPermissions  
+[debug] [2020-08-19T04:51:45.432Z] ----------------------------------------------------------------------
+[debug] [2020-08-19T04:51:45.443Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2020-08-19T04:51:45.445Z] CLI Version:   8.7.0
+[debug] [2020-08-19T04:51:45.445Z] Platform:      linux
+[debug] [2020-08-19T04:51:45.445Z] Node Version:  v10.19.0
+[debug] [2020-08-19T04:51:45.566Z] Time:          Wed Aug 19 2020 10:21:45 GMT+0530 (India Standard Time)
+[debug] [2020-08-19T04:51:45.566Z] ----------------------------------------------------------------------
+[debug] [2020-08-19T04:51:45.567Z] 
+[debug] [2020-08-19T04:51:45.652Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-08-19T04:51:45.653Z] > authorizing via signed-in user
+[debug] [2020-08-19T04:51:45.654Z] [iam] checking project tik-tok-clone-65ef0 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-08-19T04:51:45.690Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/tik-tok-clone-65ef0:testIamPermissions  
  {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2020-08-18T11:08:03.669Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 18 Aug 2020 11:08:03 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1133","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-18T11:08:03.677Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tik-tok-clone-65ef0  
+[debug] [2020-08-19T04:51:48.215Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 Aug 2020 04:51:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1350","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-19T04:51:48.224Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/tik-tok-clone-65ef0  
  
-[debug] [2020-08-18T11:08:04.618Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 18 Aug 2020 11:08:04 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-19T04:51:49.063Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 Aug 2020 04:51:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
 [info] 
 [info] === Deploying to 'tik-tok-clone-65ef0'...
 [info] 
 [info] i  deploying hosting 
-[debug] [2020-08-18T11:08:04.637Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tik-tok-clone-65ef0/versions  
+[debug] [2020-08-19T04:51:49.082Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tik-tok-clone-65ef0/versions  
  {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
-[debug] [2020-08-18T11:08:08.134Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 18 Aug 2020 11:08:07 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-19T04:51:52.009Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 Aug 2020 04:51:51 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
 [info] i  hosting[tik-tok-clone-65ef0]: beginning deploy... 
 [info] i  hosting[tik-tok-clone-65ef0]: found 16 files in build 
-[debug] [2020-08-18T11:08:08.204Z] [hosting] hash cache [YnVpbGQ] not populated
-[debug] [2020-08-18T11:08:10.072Z] [hosting] hash cache [YnVpbGQ] stored for 16 files
-[debug] [2020-08-18T11:08:10.073Z] [hosting][hash queue][FINAL] {"max":1791,"min":274,"avg":399.375,"active":0,"complete":16,"success":16,"errored":0,"retried":0,"total":16,"elapsed":1867}
-[debug] [2020-08-18T11:08:10.074Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tik-tok-clone-65ef0/versions/ff6fde400da096fc:populateFiles  
+[debug] [2020-08-19T04:51:52.062Z] [hosting] hash cache [YnVpbGQ] not populated
+[debug] [2020-08-19T04:51:53.130Z] [hosting] hash cache [YnVpbGQ] stored for 16 files
+[debug] [2020-08-19T04:51:53.131Z] [hosting][hash queue][FINAL] {"max":1038,"min":80,"avg":153.875,"active":0,"complete":16,"success":16,"errored":0,"retried":0,"total":16,"elapsed":1068}
+[debug] [2020-08-19T04:51:53.132Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tik-tok-clone-65ef0/versions/b2eed8cf19563943:populateFiles  
  <request body omitted>
-[debug] [2020-08-18T11:08:12.618Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 18 Aug 2020 11:08:12 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
-[debug] [2020-08-18T11:08:12.669Z] [hosting][populate queue][FINAL] {"max":2575,"min":2575,"avg":2575,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2622}
-[debug] [2020-08-18T11:08:12.670Z] [hosting] uploads queued: 16
+[debug] [2020-08-19T04:51:55.654Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 Aug 2020 04:51:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-19T04:51:55.658Z] [hosting][populate queue][FINAL] {"max":2534,"min":2534,"avg":2534,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2535}
+[debug] [2020-08-19T04:51:55.659Z] [hosting] uploads queued: 0
+[debug] [2020-08-19T04:51:55.660Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1597812715660}
+[info] ✔  hosting[tik-tok-clone-65ef0]: file upload complete 
+[debug] [2020-08-19T04:51:55.664Z] [hosting] deploy completed after 3652ms
+[debug] [2020-08-19T04:51:56.932Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "tik-tok-clone-65ef0"
+    },
+    "site": "tik-tok-clone-65ef0",
+    "version": "sites/tik-tok-clone-65ef0/versions/b2eed8cf19563943"
+  }
+]
+[info] i  hosting[tik-tok-clone-65ef0]: finalizing version... 
+[debug] [2020-08-19T04:51:56.934Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/tik-tok-clone-65ef0/versions/b2eed8cf19563943?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-08-19T04:52:01.164Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Wed, 19 Aug 2020 04:52:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-08-19T04:52:01.165Z] [hosting] finalized version for tik-tok-clone-65ef0: {"name":"sites/tik-tok-clone-65ef0/versions/b2eed8cf19563943","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2020-08-19T04:51:51.344237Z","createUser":{"email":"srinivasthedeveloper@gmail.com"},"finalizeTime":"2020-08-19T04:52:00.993374Z","finalizeUser":{"email":"srinivasthedeveloper@gmail.com"}}
+[info] ✔  hosting[tik-tok-clone-65ef0]: version finalized 
+[info] i  hosting[tik-tok-clone-65ef0]: releasing new version... 
+[debug] [2020-08-19T04:52:01.168Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/tik-tok-clone-65ef0/releases?version_name=sites/tik-tok-clone-65ef0/versions/b2eed8cf19563943  
+ {"message":null}
